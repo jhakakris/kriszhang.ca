@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kris Zhang</title>
+  <meta name="description" content="Kris Zhang studies the power, water and money behind AI data centers. MS in Climate at Columbia, BMath at Waterloo.">
+  <meta property="og:title" content="Kris Zhang">
+  <meta property="og:description" content="The power, water and money behind AI data centers. MS in Climate at Columbia.">
+  <meta property="og:image" content="assets/kris.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav wrap">
+    <a class="logo" href="#top">Kris Zhang</a>
+    <nav>
+      <a href="#now">Now</a>
+      <a href="#work">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#about">About</a>
+      <a class="pill" href="files/cv-junhao-kris-zhang.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ---------- hero ---------- -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <h1><strong>Kris</strong> studies the power, water and money behind AI's data centers.</h1>
+        <p class="sub">MS in Climate at Columbia Climate School. Math &amp; Business at the University of Waterloo.</p>
+        <p class="sub">I turn climate and energy data into tools that help developers, lenders and policymakers make better decisions.</p>
+        <div class="links">
+          <a href="mailto:jz4189@columbia.edu">jz4189@columbia.edu</a>
+          <a href="https://www.linkedin.com/in/kris-zhang-1aa31a249" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://x.com/jhakakris" target="_blank" rel="noopener">X ↗</a>
+        </div>
+      </div>
+      <figure class="portrait"><img src="assets/kris.jpg" alt="Kris Zhang in front of a window overlooking the New York skyline" width="560" height="840"></figure>
+    </section>
+
+    <!-- ---------- now ---------- -->
+    <section id="now" class="wrap block">
+      <p class="kicker">Right now</p>
+      <h2 class="section">What I'm working on</h2>
+      <div class="now-grid">
+        <article class="now-card">
+          <h3>Where should AI data centers be built?</h3>
+          <p>Data centers need huge amounts of electricity, and the water used to cool them and to generate that electricity can strain local supplies. I'm building a siting model that asks whether a location still looks good when water stress, grid decarbonization and cooling technology all change at once, instead of assuming today's conditions last.</p>
+          <p class="meta">Data: IM3 Data Center Atlas · WRI Aqueduct 4.0 · EPA eGRID</p>
+        </article>
+        <article class="now-card">
+          <h3>Speed to power, and who pays for it</h3>
+          <p>New data centers can wait years to connect to the grid. I study how interconnection rules and large-load tariffs shape how fast they get power, and what that growth means for utility costs, household electricity bills and location-based emissions.</p>
+          <p class="meta">Energy policy · electricity markets · climate finance</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ---------- projects ---------- -->
+    <section id="work" class="wrap block">
+      <p class="kicker">Selected projects</p>
+      <h2 class="section">Things I've built</h2>
+
+      <article class="project">
+        <a class="shot" href="https://loan-ly-planet.vercel.app" target="_blank" rel="noopener"><img src="assets/loanly.jpg" alt="Loan-ly Planet homepage: 'Account for climate risk in every farm loan' over a satellite view of Earth" loading="lazy"></a>
+        <div class="project-text">
+          <p class="tags"><span class="badge">🏆 1st Place</span> MIT Energy &amp; Climate Hack 2026 · Suyana Track · Nov. 2026</p>
+          <h3>Loan-ly Planet</h3>
+          <p class="lede">A climate risk monitor for agricultural lenders.</p>
+          <p>Banks finance thousands of farms but lose sight of them once the loan is paid out. Loan-ly Planet compares each field's satellite and weather signals with its own history to flag drought, flooding, frost and heat, explains why a loan is at risk, and shows the effect on the bank's loan-loss provisions under IFRS 9. Demonstrated on a 240-loan sample portfolio replaying the 2022/23 La Niña drought in South America.</p>
+          <div class="cta">
+            <a class="btn" href="https://loan-ly-planet.vercel.app" target="_blank" rel="noopener">Visit the live site ↗</a>
+            <a class="btn ghost" href="https://github.com/angiexux/loan-ly-planet" target="_blank" rel="noopener">Code</a>
+          </div>
+          <p class="url">loan-ly-planet.vercel.app</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <a class="shot" href="https://watt-if-xi.vercel.app" target="_blank" rel="noopener"><img src="assets/wattif.jpg" alt="Watt If planner showing cost and carbon targets, the earliest opening month and plan metrics" loading="lazy"></a>
+        <div class="project-text">
+          <p class="tags">Columbia University Energy Symposium GridTech Hackathon · Oct. 2026</p>
+          <h3>Watt If</h3>
+          <p class="lede">A power planner for a new data-center campus.</p>
+          <p>A developer sets a cost ceiling and a carbon ceiling; Watt If finds the earliest month a 75 MW campus can open while meeting both, and the energy mix that gets it there. Behind it are 155,893 combinations of solar, wind, nuclear, batteries and gas, each simulated hour by hour over ten years under a grid connection that arrives in stages. You can open any plan and see every hour of it.</p>
+          <div class="cta">
+            <a class="btn" href="https://watt-if-xi.vercel.app" target="_blank" rel="noopener">Visit the live site ↗</a>
+            <a class="btn ghost" href="https://github.com/jhakakris/watt-if" target="_blank" rel="noopener">Code</a>
+          </div>
+          <p class="url">watt-if-xi.vercel.app</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ---------- research ---------- -->
+    <section id="research" class="wrap block">
+      <p class="kicker">Research</p>
+      <h2 class="section">Quantitative work on risk and uncertainty</h2>
+      <p class="intro">The thread through my work is modelling risk when the future won't look like the past: first in mortality and insurance, now in the energy and water systems behind AI.</p>
+
+      <div class="list">
+        <article class="item">
+          <div class="when">Book chapter</div>
+          <div>
+            <h3>Waste and circular economy for islands</h3>
+            <p class="who">With E. Mohammadi, H. Alviri and S. J. Singh (University of Waterloo)</p>
+            <p>In G. Baldacchino (Ed.), <em>Routledge International Handbook of Island Studies: A World of Islands</em> (Vol. 2). Routledge.</p>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="when">May – Aug. 2025</div>
+          <div>
+            <h3>Climate-informed mortality modelling for insurance and financial risk</h3>
+            <p class="who">Directed research, University of Waterloo · Mentor: Rhoda Dadzie-Dennis</p>
+            <p>Can climate signals improve long-horizon mortality forecasts, and what does that mean for insurers and financial risk? I extended the Lee–Carter mortality model with mean annual temperature using Ontario data (1991–2023) and compared it with the standard model out of sample. Adding temperature improved fit and gave more decision-relevant long-term signals under warming trends.</p>
+            <div class="docs">
+              <a href="files/climate-mortality-publication.pdf" target="_blank" rel="noopener">Publication (PDF)</a>
+              <a href="files/climate-mortality-details.pdf" target="_blank" rel="noopener">Full write-up (PDF)</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="when">Jan. – Apr. 2026</div>
+          <div>
+            <h3>How cells sense their environment</h3>
+            <p class="who">Directed research, University of Waterloo · Mentor: Gordon R. McNicol</p>
+            <p>A mathematical model of how cells feel the stiffness of the material around them. I analysed a system of 18 coupled equations, ran sensitivity and drug dose-response experiments, and found switch-like behaviour in how cells commit to adhering. Presented at the Directed Reading Programme symposium.</p>
+            <div class="docs">
+              <a href="files/cell-ecm-publication.pdf" target="_blank" rel="noopener">Publication (PDF)</a>
+              <a href="files/cell-ecm-talk-slides.pptx">Talk slides</a>
+              <a href="files/cell-ecm-supervisor-thesis.pdf" target="_blank" rel="noopener">Supervisor's thesis (PDF)</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="when">Sept. – Dec. 2025</div>
+          <div>
+            <h3>Machine-checked proofs for optimization</h3>
+            <p class="who">Directed research, University of Waterloo · Mentor: Sita Gakkhar</p>
+            <p>Using the Lean 4 proof assistant, I built the mathematical pieces behind linear programming and completed a computer-verified proof of the Weak Duality Theorem, a check that the maths behind an optimization model is airtight.</p>
+            <div class="docs"><a href="files/lean4-weak-duality-details.pdf" target="_blank" rel="noopener">Write-up (PDF)</a></div>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="sub-section">Published writing</h3>
+      <ul class="pubs">
+        <li><span>“The Financial System in a Warming World.”</span> <em>Notes from the Margin</em>, Canadian Mathematical Society, Vol. XIX (2025). <a href="files/climate-mortality-publication.pdf" target="_blank" rel="noopener">PDF</a></li>
+        <li><span>“How cells feel: modeling cell interactions with their environment.”</span> With Margaret A. Puzio and Gordon R. McNicol. <em>Notes from the Margin</em>, Canadian Mathematical Society, Vol. XIX (2025). <a href="files/cell-ecm-publication.pdf" target="_blank" rel="noopener">PDF</a></li>
+        <li><span>“Waste and circular economy for islands.”</span> With E. Mohammadi, H. Alviri and S. J. Singh. <em>Routledge International Handbook of Island Studies</em>, Vol. 2. Routledge.</li>
+      </ul>
+    </section>
+
+    <!-- ---------- earlier projects ---------- -->
+    <section class="wrap block">
+      <p class="kicker">Earlier projects</p>
+      <div class="mini-grid">
+        <article class="mini">
+          <p class="when">Sept. – Dec. 2025</p>
+          <h3>Faster transfers on GO Transit</h3>
+          <p>An optimization model of GO Transit schedules. In the modelled peak period, small timing changes cut total passenger transfer waiting by more than half, without new trains or track.</p>
+          <div class="docs"><a href="files/go-transit-optimization-report.pdf" target="_blank" rel="noopener">Report (PDF)</a></div>
+        </article>
+        <article class="mini">
+          <p class="when">Sept. – Dec. 2024</p>
+          <h3>What moves the S&amp;P 500?</h3>
+          <p>Regression models of the index against financial, sector and macro variables using 30 years of Bloomberg data, with a careful look at why a strong in-sample fit can still fail to predict.</p>
+          <div class="docs"><a href="files/sp500-regression-report.pdf" target="_blank" rel="noopener">Report (PDF)</a><a href="files/sp500-regression-presentation.pptx">Slides</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ---------- about ---------- -->
+    <section id="about" class="wrap block about">
+      <div>
+        <p class="kicker">About</p>
+        <h2 class="section">A little more about me</h2>
+        <p>I studied Mathematics and Business Administration at the University of Waterloo, with a minor in Statistics, and moved from Canada to New York for the MS in Climate at Columbia Climate School on a merit scholarship.</p>
+        <p>I like problems where a good model changes a real decision, whether that's where to build, how to price risk or what a policy will cost households. I write short research takeaways on X.</p>
+        <p>Outside of work I'm snowboarding, playing tennis or golf, watching F1 and the NBA, or thinking about fashion and good design.</p>
+      </div>
+      <div class="edu">
+        <div class="edu-row"><b>Columbia University</b><span>M.S., Climate · Columbia Climate School · 2026 –</span></div>
+        <div class="edu-row"><b>University of Waterloo</b><span>B.Math., Mathematics &amp; Business Administration · Statistics minor · 2022 – 2025</span></div>
+        <a class="btn" href="files/cv-junhao-kris-zhang.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+      </div>
+    </section>
+
+    <!-- ---------- contact ---------- -->
+    <section id="contact" class="wrap contact">
+      <h2>Let's talk.</h2>
+      <p>Whether you're working on data centers, climate finance or energy policy, I'd love to hear from you.</p>
+      <div class="links big">
+        <a href="mailto:jz4189@columbia.edu">jz4189@columbia.edu</a>
+        <a href="https://www.linkedin.com/in/kris-zhang-1aa31a249" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://x.com/jhakakris" target="_blank" rel="noopener">X ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">© 2026 Kris Zhang · New York</footer>
+</body>
+</html>
